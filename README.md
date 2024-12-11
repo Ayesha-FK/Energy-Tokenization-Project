@@ -4,6 +4,8 @@
 
 GreenSync is a blockchain-based marketplace that connects renewable energy producers with consumers. This platform leverages Ethereum smart contracts to facilitate energy transactions, ensuring transparency, security, and automation in energy trading. Producers can tokenize their energy credits and sell them to consumers, who can use these tokens to meet their energy needs. The platform also features wallet integration with MetaMask for a seamless user experience.
 
+This project has been made by FAST University
+
 ## Table of Contents
 
 
@@ -48,17 +50,18 @@ Before you begin, ensure you have the following installed:
    cd GreenSync
 
 To install project project dependencies:
+```bash
   npm install
 
 To start the project:
-npm start
+```bash
+   npm start
 
 Smart Contract Deployment:
 
 Navigate to the GreenSync/blockchain directory. Use the Hardhat deployment script to deploy the smart contract to a local Ethereum network:
 
-bash
-Copy code
+```bash
 npx hardhat run scripts/deploy.js --network localhost
 
 Connect MetaMask:
@@ -74,3 +77,16 @@ For Consumers:
 Consumers can browse energy tokens listed by producers.
 Select the energy offering and purchase the tokens via MetaMask.
 The transaction will be processed through the Ethereum blockchain and executed by the smart contract.
+
+Project Contributors
+
+This project, GreenSync: A Blockchain-Based Green Energy Marketplace, has been developed by a dedicated group of students from FAST University, Islamabad. The team members have collaborated to create an innovative platform that leverages blockchain technology to promote sustainability in the energy sector.
+
+The project has been meticulously developed by:
+
+Ayesha Fazal
+Amama Khurram
+Hamza Farooq
+Moosa Saeed
+
+Each member brought their unique skills to the table, working together to build a decentralized solution aimed at improving the efficiency, transparency, and security of energy credit trading.
