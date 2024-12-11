@@ -50,19 +50,18 @@ Before you begin, ensure you have the following installed:
    cd GreenSync
 
 To install project project dependencies:
-```bash
-  npm install
+   ```bash
+     npm install
 
 To start the project:
-```bash
-   npm start
+   ```bash
+    npm start
 
 Smart Contract Deployment:
 
 Navigate to the GreenSync/blockchain directory. Use the Hardhat deployment script to deploy the smart contract to a local Ethereum network:
-
-```bash
-npx hardhat run scripts/deploy.js --network localhost
+   ```bash
+   npx hardhat run scripts/deploy.js --network localhost
 
 Connect MetaMask:
 
