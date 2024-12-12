@@ -1,0 +1,164 @@
+.detailed-info {
+    width: 100%;
+    color: #333; /* Default text color: dark gray for legibility */
+    font-family: 'Arial', sans-serif;
+    background: #ffffff; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.detailed-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1e3a8a; /* Blue color for the main title */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 150px;
+    line-height: 1.2;
+}
+
+.detailed-info h2 {
+    font-size: 32px;
+    color: #0d47a1; /* Blue color for section titles */
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.detailed-info p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 1000px;
+    color: #000000; /* Black color for paragraph text */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    background: #ffffff; /* White background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    flex-direction: column;
+}
+
+.section:nth-child(odd) {
+    background: #ffffff; /* White background for odd sections */
+}
+
+.section:nth-child(even) {
+    background: #ffffff; /* White background for even sections */
+}
+
+.section .content {
+    width: 80%;
+    max-width: 1000px;
+    padding: 30px;
+    text-align: left;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.section li {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #000000; /* Black text for list items */
+    text-align: left;
+}
+
+.section li strong {
+    color: #1e3a8a; /* Blue color for bold text */
+}
+
+.section li::before {
+    content: '✔️';
+    padding-right: 10px;
+    color: #1e3a8a; /* Blue checkmark */
+}
+
+/* FAQ Section (Details + Summary) */
+details {
+    background-color: #ffffff; 
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    text-align: left;
+}
+
+details[open] {
+    background-color: #e5ebee; /* Slightly darker blue when open */
+}
+
+summary {
+    font-size: 24px;
+    color: #1e3a8a; /* Blue color for FAQ headings */
+    font-weight: bold;
+    text-align: left;
+
+}
+
+summary:hover {
+    color: #1565c0; /* Darker blue on hover */
+}
+
+details p {
+    font-size: 18px;
+    color: #000000; /* Black text for the answer */
+    padding-top: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .detailed-info h1 {
+        font-size: 36px;
+    }
+
+    .detailed-info h2 {
+        font-size: 28px;
+    }
+
+    .detailed-info p {
+        font-size: 18px;
+    }
+
+    .section {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .section .content {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    details {
+        padding: 15px;
+    }
+
+    details p {
+        font-size: 16px;
+    }
+}

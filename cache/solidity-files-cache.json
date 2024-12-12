@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Admin\\Downloads\\GreenSync new\\GreenSync\\contracts\\GreenEnergyToken.sol": {
+      "lastModificationDate": 1731303222475,
+      "contentHash": "61a5392b9231e5aea4efce37a10490e2",
+      "sourceName": "contracts/GreenEnergyToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GreenEnergyToken"
+      ]
+    },
+    "C:\\Users\\Admin\\Downloads\\GreenSync\\contracts\\GreenEnergyToken.sol": {
+      "lastModificationDate": 1731829460710,
+      "contentHash": "236b18fe6759e9f2591f9a68899c23dd",
+      "sourceName": "contracts/GreenEnergyToken.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GreenEnergyMarketplace"
+      ]
+    }
+  }
+}
